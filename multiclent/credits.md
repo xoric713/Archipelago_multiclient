@@ -8,7 +8,7 @@
 ## 🔧 Tools / Libraries Used
 - Python 3.x
 - asyncio / websockets
-- (TBD: GUI framework – PyQt5 / Tkinter / etc.)
+- (GUI framework – Tkinter)
 - GitHub API (for apworld versioning)
 
 ## 🤖 AI-Assisted Contributions
