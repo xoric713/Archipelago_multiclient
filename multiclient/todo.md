@@ -1,11 +1,11 @@
 # TODO: Archipelago Multi-Client Toolkit
 
-## Phase 0: Project Foundation
+## Phase 0: Project Foundation - completed july 8 2025
 - [x] Fork Archipelago repo
 - [x] Set upstream remote for future merges
 - [x] Create isolated module folder (/multiclient/)
 - [x] Decide GUI framework (tkinter)
-- [ ] Stub out CLI/GUI entry point
+- [x] Stub out CLI/GUI entry point
 
 ---
 
