@@ -10,9 +10,9 @@
 ---
 
 ## Phase 1: YAML Builder
-- [ ] Basic UI for game/slot entry
-- [ ] Support custom settings per game
-- [ ] Combine games into valid multiworld YAML
+- [x] Basic UI for game/slot entry
+- [x] Support custom settings per game
+- [x] Combine games into valid multiworld YAML
 - [ ] Validate YAML using Archipelago schema
 - [ ] Allow saving/loading YAML templates
 
