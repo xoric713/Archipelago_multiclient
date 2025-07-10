@@ -44,6 +44,13 @@ class SettingsEditor(tk.Toplevel):
         saved_data = self.builder.get_settings_for_slot_game(self.slot, self.folder)
         saved_values = saved_data.get("data", {}) if isinstance(saved_data, dict) else {}
 
+
+        if not raw_template:
+            from tkinter import messagebox
+            messagebox.showerror("Template Error", "No template data found for this game. Please ensure the template YAML is valid and not empty.")
+            self.destroy()
+            return
+
         for key, options in raw_template.items():
             if isinstance(options, dict):
                 frame = ttk.LabelFrame(self.scroll_frame, text=key)
@@ -79,17 +86,65 @@ class SettingsEditor(tk.Toplevel):
         ttk.Button(self.scroll_frame, text="Save", command=self.save_settings).pack(pady=10)
 
     def load_template_defaults(self):
-        path = filedialog.askopenfilename(
-            title=f"Select template YAML for {self.game_name}",
-            filetypes=[("YAML files", "*.yaml")]
-        )
-        if not path:
+        import os, json
+        # Load settings.json to get the players path
+        # Always use settings.json in the multiclient folder
+        settings_path = os.path.join(os.path.dirname(__file__), "settings.json")
+        players_path = None
+        templates_dir = None
+        try:
+            with open(settings_path, "r", encoding="utf-8") as sf:
+                settings = json.load(sf)
+            players_path = settings.get("paths", {}).get("players")
+            if players_path:
+                templates_dir = os.path.join(players_path, "templates")
+        except Exception:
+            pass
+        if not templates_dir or not os.path.isdir(templates_dir):
+            from tkinter import messagebox
+            messagebox.showerror("Template Error", "Could not find templates directory. Check your settings.json paths.")
             return {}
 
-        with open(path, "r", encoding="utf-8") as f:
-            data = yaml.safe_load(f)
+        found_template = None
+        # Iterate through all YAML files in templates_dir
+        for fname in os.listdir(templates_dir):
+            if fname.endswith(".yaml"):
+                fpath = os.path.join(templates_dir, fname)
+                try:
+                    with open(fpath, "r", encoding="utf-8") as f:
+                        data = yaml.safe_load(f)
+                    # Look for a 'game' key at the top level
+                    if isinstance(data, dict):
+                        game_val = data.get("game")
+                        if game_val == self.game_name:
+                            found_template = fpath
+                            break
+                except Exception:
+                    continue
+        if found_template:
+            with open(found_template, "r", encoding="utf-8") as f:
+                data = yaml.safe_load(f)
+            # Save the template path in settings.json
+            try:
+                if os.path.isfile(settings_path):
+                    with open(settings_path, "r", encoding="utf-8") as sf:
+                        settings = json.load(sf)
+                else:
+                    settings = {}
+            except Exception:
+                settings = {}
+            if "templates" not in settings:
+                settings["templates"] = {}
+            settings["templates"][self.game_name] = found_template
+            # Always save settings.json in the multiclient folder
+            with open(os.path.join(os.path.dirname(__file__), "settings.json"), "w", encoding="utf-8") as sf:
+                json.dump(settings, sf, indent=4)
+            return data.get(self.game_name, {}) if data else {}
+        else:
+            from tkinter import messagebox
+            messagebox.showerror("Template Error", f"No template with game: {self.game_name} found in templates folder.")
+            return {}
 
-        return data.get(self.game_name, {})
 
     def save_settings(self):
         final = {}
