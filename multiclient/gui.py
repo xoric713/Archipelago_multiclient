@@ -9,6 +9,24 @@ from multiclient.wizard import YAMLWizard
 class MultiClientGUI(tk.Tk):
     def __init__(self):
         super().__init__()
+        # Clean up temp.json on main GUI launch
+        import os
+        temp_json_path = os.path.join(os.path.dirname(__file__), "temp.json")
+        try:
+            if os.path.exists(temp_json_path):
+                os.remove(temp_json_path)
+        except Exception:
+            pass
+
+        # Clean up all .temp files on main GUI launch
+        import os, glob
+        temp_dir = os.path.dirname(__file__)
+        for temp_file in glob.glob(os.path.join(temp_dir, "*.temp")):
+            try:
+                os.remove(temp_file)
+            except Exception:
+                pass
+
         self.title("Archipelago Multi-Client Toolkit")
         self.geometry("600x400")
         self.builder = YAMLBuilder()

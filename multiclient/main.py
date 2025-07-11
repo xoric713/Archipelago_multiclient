@@ -54,7 +54,13 @@ def main():
         settings = {"paths": {"players": default_players_path, "output": "./output"}}
         with open(os.path.join(os.path.dirname(__file__), "settings.json"), "w") as f:
             json.dump(settings, f, indent=4)
-        print(f"Settings saved to {settings_path}. Please restart the application.")
+        print(f"Settings saved to {settings_path}.")
+        import subprocess
+        bat_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "multiclient", "launch_gui.bat")
+        if not os.path.isfile(bat_path):
+            print(f"Could not find launch_gui.bat at {bat_path}. Please launch the GUI manually.")
+        else:
+            subprocess.Popen([bat_path], shell=True)
         sys.exit(0)
 
     if "--gui" in sys.argv:

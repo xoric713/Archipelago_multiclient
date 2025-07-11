@@ -1,0 +1,1164 @@
+{
+  "Player1": {
+    "Bomb Rush Cyberfunk": {
+      "progression_balancing": {
+        "comment": "A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.\n\nA lower setting means more getting stuck. A higher setting means less getting stuck.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 99",
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0,
+        "disabled": 0,
+        "normal": 50,
+        "extreme": 0
+      },
+      "accessibility": {
+        "comment": "Set rules for reachability of your items/locations.\n\n**Full:** ensure everything can be reached and acquired.\n\n**Minimal:** ensure what is needed to reach your goal can be acquired.",
+        "full": 50,
+        "minimal": 0
+      },
+      "plando_items": [],
+      "logic": {
+        "comment": "Choose the logic used by the randomizer.",
+        "glitchless": 50,
+        "glitched": 0
+      },
+      "skip_intro": {
+        "comment": "Skips escaping the police station.\n\nGraffiti spots tagged during the intro will not unlock items.",
+        "false": 0,
+        "true": 50
+      },
+      "skip_dreams": {
+        "comment": "Skips the dream sequences at the end of each chapter.\n\nThis can be changed later in the options menu inside the Archipelago phone app.",
+        "false": 50,
+        "true": 0
+      },
+      "skip_statue_hands": {
+        "comment": "Skips spraying the lion statue hands after the dream in Chapter 5.",
+        "false": 50,
+        "true": 0
+      },
+      "total_rep": {
+        "comment": "Change the total amount of REP in your world.\n\nAt least 960 REP is needed to finish the game.\n\nWill be rounded to the nearest number divisible by 8.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1000\nMaximum value is 2000",
+        "1400": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "extra_rep_required": {
+        "comment": "Changes the final boss to require 1000 REP instead of 960 REP to start.",
+        "false": 50,
+        "true": 0
+      },
+      "starting_movestyle": {
+        "comment": "Choose which movestyle to start with.",
+        "skateboard": 50,
+        "inline_skates": 0,
+        "bmx": 0
+      },
+      "limited_graffiti": {
+        "comment": "Each graffiti design can only be used a limited number of times before being removed from your inventory.\n\nIn some cases, such as completing a dream, using graffiti to defeat enemies, or spraying over your own graffiti, uses will not be counted.\n\nIf enabled, doing graffiti is disabled during crew battles, to prevent softlocking.",
+        "false": 50,
+        "true": 0
+      },
+      "small_graffiti_uses": {
+        "comment": "Choose if small graffiti should be separate, meaning that you will need to switch characters every time you run out, or combined, meaning that unlocking new characters will add 5 uses that any character can use.\n\nHas no effect if Limited Graffiti is disabled.",
+        "separate": 50,
+        "combined": 0
+      },
+      "skip_polo_photos": {
+        "comment": "Skip taking pictures of Polo for items.",
+        "false": 50,
+        "true": 0
+      },
+      "dont_save_photos": {
+        "comment": "Photos taken with the Camera app will not be saved.\n\nThis can be changed later in the options menu inside the Archipelago phone app.",
+        "false": 50,
+        "true": 0
+      },
+      "score_difficulty": {
+        "comment": "Alters the score required to win score challenges and crew battles.\n\nThis can be changed later in the options menu inside the Archipelago phone app.",
+        "normal": 50,
+        "medium": 0,
+        "hard": 0,
+        "very_hard": 0,
+        "extreme": 0
+      },
+      "damage_multiplier": {
+        "comment": "Multiplies all damage received.\n\nAt 3x, most damage will OHKO the player, including falling into pits.\nAt 6x, all damage will OHKO the player.\n\nThis can be changed later in the options menu inside the Archipelago phone app.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 6",
+        "1": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "death_link": {
+        "comment": "When you die, everyone dies. The reverse is also true.\n\nThis can be changed later in the options menu inside the Archipelago phone app.",
+        "false": 50,
+        "true": 0
+      },
+      "local_items": [],
+      "non_local_items": [],
+      "start_inventory": {},
+      "start_hints": [],
+      "start_location_hints": [],
+      "exclude_locations": [],
+      "priority_locations": [],
+      "item_links": []
+    },
+    "A Hat in Time": {
+      "progression_balancing": {
+        "comment": "A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.\n\nA lower setting means more getting stuck. A higher setting means less getting stuck.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 99",
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0,
+        "disabled": 0,
+        "normal": 50,
+        "extreme": 0
+      },
+      "accessibility": {
+        "comment": "Set rules for reachability of your items/locations.\n\n**Full:** ensure everything can be reached and acquired.\n\n**Minimal:** ensure what is needed to reach your goal can be acquired.",
+        "full": 50,
+        "minimal": 0
+      },
+      "plando_items": [],
+      "death_link": {
+        "comment": "When you die, everyone who enabled death link dies. Of course, the reverse is true too.",
+        "false": 50,
+        "true": 0
+      },
+      "EndGoal": {
+        "comment": "The end goal required to beat the game.\nFinale: Reach Time's End and beat Mustache Girl. The Finale will be in its vanilla location.\n\nRush Hour: Reach and complete Rush Hour. The level will be in its vanilla location and Chapter 7\nwill be the final chapter. You also must find Nyakuza Metro itself and complete all of its levels.\nRequires DLC2 content to be enabled.\n\nSeal the Deal: Reach and complete the Seal the Deal death wish main objective.\nRequires Death Wish content to be enabled.",
+        "finale": 50,
+        "rush_hour": 0,
+        "seal_the_deal": 0
+      },
+      "ShuffleStorybookPages": {
+        "comment": "If enabled, each storybook page in the purple Time Rifts is an item check.\nThe Compass Badge can track these down for you.",
+        "false": 0,
+        "true": 50
+      },
+      "ShuffleAlpineZiplines": {
+        "comment": "If enabled, Alpine's zipline paths leading to the peaks will be locked behind items.",
+        "false": 50,
+        "true": 0
+      },
+      "ShuffleSubconPaintings": {
+        "comment": "If enabled, shuffle items into the pool that unlock Subcon Forest fire spirit paintings.\nThese items are progressive, with the order of Village-Swamp-Courtyard.",
+        "false": 50,
+        "true": 0
+      },
+      "ShuffleActContracts": {
+        "comment": "If enabled, shuffle Snatcher's act contracts into the pool as items",
+        "false": 0,
+        "true": 50
+      },
+      "MinPonCost": {
+        "comment": "The minimum number of Pons that any item in the Badge Seller's shop can cost.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 10\nMaximum value is 800",
+        "75": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "MaxPonCost": {
+        "comment": "The maximum number of Pons that any item in the Badge Seller's shop can cost.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 10\nMaximum value is 800",
+        "300": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "BadgeSellerMinItems": {
+        "comment": "The smallest number of items that the Badge Seller can have for sale.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 10",
+        "4": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "BadgeSellerMaxItems": {
+        "comment": "The largest number of items that the Badge Seller can have for sale.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 10",
+        "8": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "LogicDifficulty": {
+        "comment": "Choose the difficulty setting for logic.\nFor an exhaustive list of all logic tricks for each difficulty, see this Google Doc:\nhttps://docs.google.com/document/d/1x9VLSQ5davfx1KGamR9T0mD5h69_lDXJ6H7Gq7knJRI/edit?usp=sharing",
+        "normal": 50,
+        "moderate": 0,
+        "hard": 0,
+        "expert": 0
+      },
+      "NoPaintingSkips": {
+        "comment": "If enabled, prevent Subcon fire wall skips from being in logic on higher difficulty settings.",
+        "false": 50,
+        "true": 0
+      },
+      "CTRLogic": {
+        "comment": "Choose how you want to logically clear Cheating the Race.",
+        "time_stop_only": 50,
+        "scooter": 0,
+        "sprint": 0,
+        "nothing": 0
+      },
+      "ActRandomizer": {
+        "comment": "If enabled, shuffle the game's Acts between each other.\nLight will cause Time Rifts to only be shuffled amongst each other,\nand Blue Time Rifts and Purple Time Rifts to be shuffled separately.",
+        "false": 0,
+        "light": 50,
+        "insanity": 0
+      },
+      "StartingChapter": {
+        "comment": "Determines which chapter you will be guaranteed to be able to enter at the beginning of the game.",
+        "1": 50,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      },
+      "LowestChapterCost": {
+        "comment": "Value determining the lowest possible cost for a chapter.\nChapter costs will, progressively, be calculated based on this value (except for the final chapter).\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 10",
+        "5": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "HighestChapterCost": {
+        "comment": "Value determining the highest possible cost for a chapter.\nChapter costs will, progressively, be calculated based on this value (except for the final chapter).\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 15\nMaximum value is 45",
+        "25": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "ChapterCostIncrement": {
+        "comment": "Lower values mean chapter costs increase slower. Higher values make the cost differences more steep.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 8",
+        "4": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "ChapterCostMinDifference": {
+        "comment": "The minimum difference between chapter costs.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 8",
+        "4": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "FinalChapterMinCost": {
+        "comment": "Minimum Time Pieces required to enter the final chapter. This is part of your goal.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 50",
+        "30": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "FinalChapterMaxCost": {
+        "comment": "Maximum Time Pieces required to enter the final chapter. This is part of your goal.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 50",
+        "35": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "FinaleShuffle": {
+        "comment": "If enabled, chapter finales will only be shuffled amongst each other in act shuffle.",
+        "false": 50,
+        "true": 0
+      },
+      "ActPlando": {},
+      "ActBlacklist": {},
+      "StartWithCompassBadge": {
+        "comment": "If enabled, start with the Compass Badge. In MultiworldGG, the Compass Badge will track all items in the world\n(instead of just Relics). Recommended if you're not familiar with where item locations are.",
+        "false": 0,
+        "true": 50
+      },
+      "CompassBadgeMode": {
+        "comment": "closest - Compass Badge points to the closest item regardless of classification\nimportant_only - Compass Badge points to progression/useful items only\nimportant_first - Compass Badge points to progression/useful items first, then it will point to junk items",
+        "closest": 50,
+        "important_only": 0,
+        "important_first": 0
+      },
+      "RandomizeHatOrder": {
+        "comment": "Randomize the order that hats are stitched in.\nTime Stop Last will force Time Stop to be the last hat in the sequence.",
+        "false": 0,
+        "true": 50,
+        "time_stop_last": 0
+      },
+      "YarnAvailable": {
+        "comment": "How much yarn is available to collect in the item pool.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 30\nMaximum value is 80",
+        "50": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "YarnCostMin": {
+        "comment": "The minimum possible yarn needed to stitch a hat.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 12",
+        "4": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "YarnCostMax": {
+        "comment": "The maximum possible yarn needed to stitch a hat.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 12",
+        "8": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "MinExtraYarn": {
+        "comment": "The minimum number of extra yarn in the item pool.\nThere must be at least this much more yarn over the total number of yarn needed to craft all hats.\nFor example, if this option's value is 10, and the total yarn needed to craft all hats is 40,\nthere must be at least 50 yarn in the pool.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 5\nMaximum value is 15",
+        "10": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "HatItems": {
+        "comment": "Removes all yarn from the pool and turns the hats into individual items instead.",
+        "false": 50,
+        "true": 0
+      },
+      "UmbrellaLogic": {
+        "comment": "Makes Hat Kid's default punch attack do absolutely nothing, making the Umbrella much more relevant and useful",
+        "false": 50,
+        "true": 0
+      },
+      "MaxExtraTimePieces": {
+        "comment": "Maximum number of extra Time Pieces from the DLCs.\nArctic Cruise will add up to 6. Nyakuza Metro will add up to 10. The absolute maximum is 56.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 16",
+        "16": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "YarnBalancePercent": {
+        "comment": "How much (in percentage) of the yarn in the pool that will be progression balanced.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "20": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "TimePieceBalancePercent": {
+        "comment": "How much (in percentage) of time pieces in the pool that will be progression balanced.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "35": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "EnableDLC1": {
+        "comment": "Shuffle content from The Arctic Cruise (Chapter 6) into the game. This also includes the Tour time rift.\nDO NOT ENABLE THIS OPTION IF YOU DO NOT HAVE SEAL THE DEAL DLC INSTALLED!!!",
+        "false": 50,
+        "true": 0
+      },
+      "Tasksanity": {
+        "comment": "If enabled, Ship Shape tasks will become checks. Requires DLC1 content to be enabled.",
+        "false": 50,
+        "true": 0
+      },
+      "TasksanityTaskStep": {
+        "comment": "How many tasks the player must complete in Tasksanity to send a check.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 3",
+        "1": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "TasksanityCheckCount": {
+        "comment": "How many Tasksanity checks there will be in total.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 30",
+        "18": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "ShipShapeCustomTaskGoal": {
+        "comment": "Change the number of tasks required to complete Ship Shape. If this option's value is 0, the number of tasks\nrequired will be TasksanityTaskStep x TasksanityCheckCount, if Tasksanity is enabled. If Tasksanity is disabled,\nit will use the game's default of 18.\nThis option will not affect Cruisin' for a Bruisin'.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 90",
+        "0": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "ExcludeTour": {
+        "comment": "Removes the Tour time rift from the game. This option is recommended if you don't want to deal with\nimportant levels being shuffled onto the Tour time rift, or important items being shuffled onto Tour pages\nwhen your goal is Time's End.",
+        "false": 50,
+        "true": 0
+      },
+      "EnableDLC2": {
+        "comment": "Shuffle content from Nyakuza Metro (Chapter 7) into the game.\nDO NOT ENABLE THIS OPTION IF YOU DO NOT HAVE NYAKUZA METRO DLC INSTALLED!!!",
+        "false": 50,
+        "true": 0
+      },
+      "MetroMinPonCost": {
+        "comment": "The cheapest an item can be in any Nyakuza Metro shop. Includes ticket booths.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 10\nMaximum value is 800",
+        "50": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "MetroMaxPonCost": {
+        "comment": "The most expensive an item can be in any Nyakuza Metro shop. Includes ticket booths.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 10\nMaximum value is 800",
+        "200": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "NyakuzaThugMinShopItems": {
+        "comment": "The smallest number of items that the thugs in Nyakuza Metro can have for sale.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 5",
+        "2": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "NyakuzaThugMaxShopItems": {
+        "comment": "The largest number of items that the thugs in Nyakuza Metro can have for sale.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 5",
+        "4": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "BaseballBat": {
+        "comment": "Replace the Umbrella with the baseball bat from Nyakuza Metro.\nDLC2 content does not have to be shuffled for this option but Nyakuza Metro still needs to be installed.",
+        "false": 50,
+        "true": 0
+      },
+      "NoTicketSkips": {
+        "comment": "Prevent metro gate skips from being in logic on higher difficulties.\nRush Hour option will only consider the ticket skips for Rush Hour in logic.",
+        "false": 50,
+        "true": 0,
+        "rush_hour": 0
+      },
+      "EnableDeathWish": {
+        "comment": "Shuffle Death Wish contracts into the game. Each contract by default will have 1 check granted upon completion.\nDO NOT ENABLE THIS OPTION IF YOU DO NOT HAVE SEAL THE DEAL DLC INSTALLED!!!",
+        "false": 50,
+        "true": 0
+      },
+      "DWTimePieceRequirement": {
+        "comment": "How many Time Pieces that will be required to unlock Death Wish.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 35",
+        "15": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "DWShuffle": {
+        "comment": "An alternative mode for Death Wish where each contract is unlocked one by one, in a random order.\nStamp requirements to unlock contracts is removed. Any excluded contracts will not be shuffled into the sequence.\nIf Seal the Deal is the end goal, it will always be the last Death Wish in the sequence.\nDisabling candles is highly recommended.",
+        "false": 50,
+        "true": 0
+      },
+      "DWShuffleCountMin": {
+        "comment": "The minimum number of Death Wishes that can be in the Death Wish shuffle sequence.\nThe final result is clamped at the number of non-excluded Death Wishes.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 5\nMaximum value is 38",
+        "18": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "DWShuffleCountMax": {
+        "comment": "The maximum number of Death Wishes that can be in the Death Wish shuffle sequence.\nThe final result is clamped at the number of non-excluded Death Wishes.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 5\nMaximum value is 38",
+        "25": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "DWEnableBonus": {
+        "comment": "In Death Wish, add a location for completing all of a DW contract's bonuses,\nin addition to the location for completing the DW contract normally.\nWARNING!! Only for the brave! This option can create VERY DIFFICULT SEEDS!\nONLY turn this on if you know what you are doing to yourself and everyone else in the multiworld!\nUsing Peace and Tranquility to auto-complete the bonuses will NOT count!",
+        "false": 50,
+        "true": 0
+      },
+      "DWAutoCompleteBonuses": {
+        "comment": "If enabled, auto complete all bonus stamps after completing the main objective in a Death Wish.\nThis option will have no effect if bonus checks (DWEnableBonus) are turned on.",
+        "false": 0,
+        "true": 50
+      },
+      "DWExcludeAnnoyingContracts": {
+        "comment": "Exclude Death Wish contracts from the pool that are particularly tedious or take a long time to reach/clear.\nExcluded Death Wishes are automatically completed as soon as they are unlocked.\nThis option currently excludes the following contracts:\n- Vault Codes in the Wind\n- Boss Rush\n- Camera Tourist\n- The Mustache Gauntlet\n- Rift Collapse: Deep Sea\n- Cruisin' for a Bruisin'\n- Seal the Deal (non-excluded if goal, but the checks are still excluded)",
+        "false": 0,
+        "true": 50
+      },
+      "DWExcludeAnnoyingBonuses": {
+        "comment": "If Death Wish full completions are shuffled in, exclude tedious Death Wish full completions from the pool.\nExcluded bonus Death Wishes automatically reward their bonus stamps upon completion of the main objective.\nThis option currently excludes the following bonuses:\n- So You're Back From Outer Space\n- Encore! Encore!\n- Snatcher's Hit List\n- 10 Seconds until Self-Destruct\n- Killing Two Birds\n- Zero Jumps\n- Bird Sanctuary\n- Wound-Up Windmill\n- Vault Codes in the Wind\n- Boss Rush\n- Camera Tourist\n- The Mustache Gauntlet\n- Rift Collapse: Deep Sea\n- Cruisin' for a Bruisin'\n- Seal the Deal",
+        "false": 0,
+        "true": 50
+      },
+      "DWExcludeCandles": {
+        "comment": "If enabled, exclude all candle Death Wishes.",
+        "false": 0,
+        "true": 50
+      },
+      "DeathWishOnly": {
+        "comment": "An alternative gameplay mode that allows you to exclusively play Death Wish in a seed.\nThis has the following effects:\n- Death Wish is instantly unlocked from the start\n- All hats and other progression items are instantly given to you\n- Useful items such as Fast Hatter Badge will still be in the item pool instead of in your inventory at the start\n- All chapters and their levels are unlocked, act shuffle is forced off\n- Any checks other than Death Wish contracts are completely removed\n- All Pons in the item pool are replaced with Health Pons or random cosmetics\n- The EndGoal option is forced to complete Seal the Deal",
+        "false": 50,
+        "true": 0
+      },
+      "TrapChance": {
+        "comment": "The chance for any junk item in the pool to be replaced by a trap.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "0": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "BabyTrapWeight": {
+        "comment": "The weight of Baby Traps in the trap pool.\nBaby Traps place a multitude of the Conductor's grandkids into Hat Kid's hands, causing her to lose her balance.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "40": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "LaserTrapWeight": {
+        "comment": "The weight of Laser Traps in the trap pool.\nLaser Traps will spawn multiple giant lasers (from Snatcher's boss fight) at Hat Kid's location.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "40": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "ParadeTrapWeight": {
+        "comment": "The weight of Parade Traps in the trap pool.\nParade Traps will summon multiple Express Band owls with knives that chase Hat Kid by mimicking her movement.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "20": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "local_items": [],
+      "non_local_items": [],
+      "start_inventory": {},
+      "start_inventory_from_pool": {},
+      "start_hints": [],
+      "start_location_hints": [],
+      "exclude_locations": [],
+      "priority_locations": [],
+      "item_links": []
+    }
+  },
+  "Player2": {
+    "A Link to the Past": {
+      "progression_balancing": {
+        "comment": "A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.\n\nA lower setting means more getting stuck. A higher setting means less getting stuck.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 99",
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0,
+        "disabled": 0,
+        "normal": 50,
+        "extreme": 0
+      },
+      "accessibility": {
+        "comment": "Set rules for reachability of your items/locations.\n\n**Full:** ensure everything can be reached and acquired.\n\n**Minimal:** ensure what is needed to reach your goal can be acquired.\n\n**Items:** ensure all logically relevant items can be acquired. Some items, such as keys, may be self-locking, and\nsome locations may be inaccessible.",
+        "full": 0,
+        "minimal": 0,
+        "items": 50
+      },
+      "plando_items": [],
+      "plando_connections": [],
+      "plando_texts": [],
+      "goal": {
+        "comment": "Ganon: Climb GT, defeat Agahnim 2, and then kill Ganon\nCrystals: Only killing Ganon is required. However, items may still be placed in GT\nBosses: Defeat the boss of all dungeons, including Agahnim's tower and GT (Aga 2)\nPedestal: Pull the Triforce from the Master Sword pedestal\nGanon Pedestal: Pull the Master Sword pedestal, then kill Ganon\nTriforce Hunt: Collect Triforce pieces spread throughout the worlds, then turn them in to Murahadala in front of Hyrule Castle\nLocal Triforce Hunt: Collect Triforce pieces spread throughout your world, then turn them in to Murahadala in front of Hyrule Castle\nGanon Triforce Hunt: Collect Triforce pieces spread throughout the worlds, then kill Ganon\nLocal Ganon Triforce Hunt: Collect Triforce pieces spread throughout your world, then kill Ganon",
+        "ganon": 50,
+        "crystals": 0,
+        "bosses": 0,
+        "pedestal": 0,
+        "ganon_pedestal": 0,
+        "triforce_hunt": 0,
+        "local_triforce_hunt": 0,
+        "ganon_triforce_hunt": 0,
+        "local_ganon_triforce_hunt": 0
+      },
+      "mode": {
+        "comment": "Standard: Begin the game by rescuing Zelda from her cell and escorting her to the Sanctuary\nOpen: Begin the game from your choice of Link's House or the Sanctuary\nInverted: Begin in the Dark World. The Moon Pearl is required to avoid bunny-state in Light World, and the Light World game map is altered",
+        "standard": 0,
+        "open": 50,
+        "inverted": 0
+      },
+      "glitches_required": {
+        "comment": "Determine the logic required to complete the seed\nNone: No glitches required\nMinor Glitches: Puts fake flipper, waterwalk, super bunny shenanigans, and etc into logic\nOverworld Glitches: Assumes the player has knowledge of both overworld major glitches (boots clips, mirror clips) and minor glitches\nHybrid Major Glitches: In addition to overworld glitches, also requires underworld clips between dungeons.\nNo Logic: Your own items are placed with no regard to any logic; such as your Fire Rod can be on your Trinexx.",
+        "no_glitches": 50,
+        "minor_glitches": 0,
+        "overworld_glitches": 0,
+        "hybrid_major_glitches": 0,
+        "no_logic": 0
+      },
+      "dark_room_logic": {
+        "comment": "Logic for unlit dark rooms. Lamp: require the Lamp for these rooms to be considered accessible.\nTorches: in addition to lamp, allow the fire rod and presence of easily accessible torches for access.\nNone: all dark rooms are always considered doable, meaning this may force completion of rooms in complete darkness.",
+        "lamp": 50,
+        "torches": 0,
+        "none": 0
+      },
+      "open_pyramid": {
+        "comment": "Determines whether the hole at the top of pyramid is open.\nGoal will open the pyramid if the goal requires you to kill Ganon, without needing to kill Agahnim 2.\nAuto is the same as goal except if Ganon's dropdown is in another location, the hole will be closed.",
+        "closed": 0,
+        "open": 0,
+        "goal": 50,
+        "auto": 0
+      },
+      "crystals_needed_for_gt": {
+        "comment": "Number of crystals needed to open Ganon's Tower\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 7",
+        "7": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "crystals_needed_for_ganon": {
+        "comment": "Number of crystals needed to damage Ganon\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 7",
+        "7": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "triforce_pieces_mode": {
+        "comment": "Determine how to calculate the extra available triforce pieces.\nExtra: available = triforce_pieces_extra + triforce_pieces_required\nPercentage: available = (triforce_pieces_percentage /100) * triforce_pieces_required\nAvailable: available = triforce_pieces_available",
+        "extra": 0,
+        "percentage": 0,
+        "available": 50
+      },
+      "triforce_pieces_percentage": {
+        "comment": "Set to how many triforce pieces according to a percentage of the required ones, are available to collect in the world.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 100\nMaximum value is 1000",
+        "150": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "triforce_pieces_required": {
+        "comment": "Set to how many out of X triforce pieces you need to win the game in a triforce hunt.\nDefault is 20. Max is 90, Min is 1.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 90",
+        "20": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "triforce_pieces_available": {
+        "comment": "Set to how many triforces pieces are available to collect in the world. Default is 30. Max is 90, Min is 1\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 90",
+        "30": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "triforce_pieces_extra": {
+        "comment": "Set to how many extra triforces pieces are available to collect in the world.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 89",
+        "10": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "entrance_shuffle": {
+        "comment": "Dungeons Simple: Shuffle just dungeons amongst each other, swapping dungeons entirely, so Hyrule Castle is always 1 dungeon.\nDungeons Full: Shuffle any dungeon entrance with any dungeon interior, so Hyrule Castle can be 4 different dungeons, but keep dungeons to a specific world.\nDungeons Crossed: like dungeons_full, but allow cross-world traversal through a dungeon. Warning: May force repeated dungeon traversal.\nSimple: Entrances are grouped together before being randomized. Interiors with two entrances are grouped shuffled together with each other,\nand Death Mountain entrances are shuffled only on Death Mountain. Dungeons are swapped entirely.\nRestricted: Like Simple, but single entrance interiors, multi entrance interiors, and Death Mountain interior entrances are all shuffled with each other.\nFull: Like Restricted, but all Dungeon entrances are shuffled with all non-Dungeon entrances.\nCrossed: Like Full, but interiors with multiple entrances are no longer confined to the same world, which may allow crossing worlds.\nInsanity: Like Crossed, but entrances and exits may be decoupled from each other, so that leaving through an exit may not return you to the entrance you entered from.",
+        "vanilla": 50,
+        "dungeons_simple": 0,
+        "dungeons_full": 0,
+        "dungeons_crossed": 0,
+        "simple": 0,
+        "restricted": 0,
+        "full": 0,
+        "crossed": 0,
+        "insanity": 0
+      },
+      "entrance_shuffle_seed": {
+        "comment": "You can specify a number to use as an entrance shuffle seed, or a group name. Everyone with the same group name\nwill get the same entrance shuffle result as long as their Entrance Shuffle, Mode, Retro Caves, and Glitches\nRequired options are the same.",
+        "random": 50
+      },
+      "big_key_shuffle": {
+        "comment": "Big Key Placement",
+        "original_dungeon": 50,
+        "own_dungeons": 0,
+        "own_world": 0,
+        "any_world": 0,
+        "different_world": 0,
+        "start_with": 0
+      },
+      "small_key_shuffle": {
+        "comment": "Small Key Placement",
+        "original_dungeon": 50,
+        "own_dungeons": 0,
+        "own_world": 0,
+        "any_world": 0,
+        "different_world": 0,
+        "start_with": 0,
+        "universal": 0
+      },
+      "key_drop_shuffle": {
+        "comment": "Shuffle keys found in pots and dropped from killed enemies,\nrespects the small key and big key shuffle options.",
+        "false": 0,
+        "true": 50
+      },
+      "compass_shuffle": {
+        "comment": "Compass Placement",
+        "original_dungeon": 50,
+        "own_dungeons": 0,
+        "own_world": 0,
+        "any_world": 0,
+        "different_world": 0,
+        "start_with": 0
+      },
+      "map_shuffle": {
+        "comment": "Map Placement",
+        "original_dungeon": 50,
+        "own_dungeons": 0,
+        "own_world": 0,
+        "any_world": 0,
+        "different_world": 0,
+        "start_with": 0
+      },
+      "restrict_dungeon_item_on_boss": {
+        "comment": "Don't place dungeon-native items on the dungeon's boss.",
+        "false": 50,
+        "true": 0
+      },
+      "item_pool": {
+        "comment": "Easy: Doubled upgrades, progressives, and etc. Normal:  Item availability remains unchanged from vanilla game.\nHard: Reduced upgrade availability (max: 14 hearts, blue mail, tempered sword, fire shield, no silvers unless swordless).\nExpert: Minimum upgrade availability (max: 8 hearts, green mail, master sword, fighter shield, no silvers unless swordless).",
+        "easy": 0,
+        "normal": 50,
+        "hard": 0,
+        "expert": 0
+      },
+      "item_functionality": {
+        "comment": "Easy: Allow Hammer to damage ganon, Allow Hammer tablet collection, Allow swordless medallion use everywhere.\nNormal: Vanilla item functionality\nHard: Reduced helpfulness of items (potions less effective, can't catch faeries, cape uses double magic, byrna does not grant invulnerability, boomerangs do not stun, silvers disabled outside ganon)\nExpert: Vastly reduces the helpfulness of items (potions barely effective, can't catch faeries, cape uses double magic, byrna does not grant invulnerability, boomerangs and hookshot do not stun, silvers disabled outside ganon)",
+        "easy": 0,
+        "normal": 50,
+        "hard": 0,
+        "expert": 0
+      },
+      "enemy_health": {
+        "comment": "Default: Vanilla enemy HP. Easy: Enemies have reduced health. Hard: Enemies have increased health.\nExpert: Enemies have greatly increased health.",
+        "easy": 0,
+        "default": 50,
+        "hard": 0,
+        "expert": 0
+      },
+      "enemy_damage": {
+        "comment": "Default: Vanilla enemy damage. Shuffled: 0 # Enemies deal 0 to 4 hearts and armor helps.\nChaos: Enemies deal 0 to 8 hearts and armor just reshuffles the damage.",
+        "default": 50,
+        "shuffled": 0,
+        "chaos": 0
+      },
+      "progressive": {
+        "comment": "How item types that have multiple tiers (armor, bows, gloves, shields, and swords) should be rewarded",
+        "off": 0,
+        "grouped_random": 0,
+        "on": 50
+      },
+      "swordless": {
+        "comment": "No swords. Curtains in Skull Woods and Agahnim's\nTower are removed, Agahnim's Tower barrier can be\ndestroyed with hammer. Misery Mire and Turtle Rock\ncan be opened without a sword. Hammer damages Ganon.\nEther and Bombos Tablet can be activated with Hammer\n(and Book).",
+        "false": 50,
+        "true": 0
+      },
+      "dungeon_counters": {
+        "comment": "On: Always display amount of items checked in a dungeon. Pickup: Show when compass is picked up.\nDefault: Show when compass is picked up if the compass itself is shuffled. Off: Never show item count in dungeons.",
+        "on": 0,
+        "pickup": 50,
+        "default": 0,
+        "off": 0
+      },
+      "retro_bow": {
+        "comment": "Zelda-1 like mode. You have to purchase a quiver to shoot arrows using rupees.",
+        "false": 50,
+        "true": 0
+      },
+      "retro_caves": {
+        "comment": "Zelda-1 like mode. There are randomly placed take-any caves that contain one Sword and\nchoices of Heart Container/Blue Potion.",
+        "false": 50,
+        "true": 0
+      },
+      "hints": {
+        "comment": "On/Full: Put item and entrance placement hints on telepathic tiles and some NPCs, Full removes joke hints.",
+        "off": 0,
+        "on": 50,
+        "full": 0
+      },
+      "scams": {
+        "comment": "If on, these Merchants will no longer tell you what they're selling.",
+        "off": 50,
+        "king_zora": 0,
+        "bottle_merchant": 0,
+        "all": 0
+      },
+      "boss_shuffle": {
+        "comment": "Shuffles bosses around to different locations.\nBasic will shuffle all bosses except Ganon and Agahnim anywhere they can be placed.\nFull chooses 3 bosses at random to be placed twice instead of Lanmolas, Moldorm, and Helmasaur.\nChaos allows any boss to appear any number of times.\nSingularity places a single boss in as many places as possible, and a second boss in any remaining locations.\nSupports plando placement.",
+        "none": 50,
+        "basic": 0,
+        "full": 0,
+        "chaos": 0,
+        "singularity": 0
+      },
+      "pot_shuffle": {
+        "comment": "Shuffle contents of pots within \"supertiles\" (item will still be nearby original placement).",
+        "false": 50,
+        "true": 0
+      },
+      "enemy_shuffle": {
+        "comment": "Randomize every enemy spawn.\nIf mode is Standard, Hyrule Castle is left out (may result in visually wrong enemy sprites in that area.)",
+        "false": 50,
+        "true": 0
+      },
+      "killable_thieves": {
+        "comment": "Makes Thieves killable.",
+        "false": 50,
+        "true": 0
+      },
+      "bush_shuffle": {
+        "comment": "Randomize chance that a bush contains an enemy as well as which enemy may spawn.",
+        "false": 50,
+        "true": 0
+      },
+      "shop_item_slots": {
+        "comment": "Number of slots in all shops available to have items from the multiworld\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 30",
+        "0": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "randomize_shop_inventories": {
+        "comment": "Generate new default inventories for overworld/underworld shops, and unique shops; or each shop independently",
+        "default": 50,
+        "randomize_by_shop_type": 0,
+        "randomize_each": 0
+      },
+      "shuffle_shop_inventories": {
+        "comment": "Shuffle default inventories of the shops around",
+        "false": 50,
+        "true": 0
+      },
+      "include_witch_hut": {
+        "comment": "Consider witch's hut like any other shop and shuffle/randomize it too",
+        "false": 50,
+        "true": 0
+      },
+      "randomize_shop_prices": {
+        "comment": "Randomize the prices of the items in shop inventories",
+        "false": 50,
+        "true": 0
+      },
+      "randomize_cost_types": {
+        "comment": "Prices of the items in shop inventories may cost hearts, arrow, or bombs instead of rupees",
+        "false": 50,
+        "true": 0
+      },
+      "shop_price_modifier": {
+        "comment": "Percentage modifier for shuffled item prices in shops\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 400",
+        "100": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "shuffle_capacity_upgrades": {
+        "comment": "Shuffle capacity upgrades into the item pool (and allow them to traverse the multiworld).\nOn Combined will shuffle only a single bomb upgrade and arrow upgrade each which bring you to the maximum capacity.",
+        "off": 50,
+        "on": 0,
+        "on_combined": 0
+      },
+      "bombless_start": {
+        "comment": "Start with a max of 0 bombs available, requiring Bomb Upgrade items in order to use bombs",
+        "false": 50,
+        "true": 0
+      },
+      "shuffle_prizes": {
+        "comment": "Shuffle \"general\" prize packs, as in enemy, tree pull, dig etc.; \"bonk\" prizes; or both.",
+        "off": 0,
+        "general": 50,
+        "bonk": 0,
+        "both": 0
+      },
+      "tile_shuffle": {
+        "comment": "Randomize flying tiles floor patterns.",
+        "false": 50,
+        "true": 0
+      },
+      "misery_mire_medallion": {
+        "comment": "Required medallion to open Misery Mire front entrance.",
+        "ether": 0,
+        "bombos": 0,
+        "quake": 0,
+        "random": 50
+      },
+      "turtle_rock_medallion": {
+        "comment": "Required medallion to open Turtle Rock front entrance.",
+        "ether": 0,
+        "bombos": 0,
+        "quake": 0,
+        "random": 50
+      },
+      "glitch_boots": {
+        "comment": "If this is enabled, the player will start with Pegasus Boots when playing with overworld glitches or harder logic.",
+        "false": 0,
+        "true": 50
+      },
+      "beemizer_total_chance": {
+        "comment": "Percentage chance for each junk-fill item (rupees, bombs, arrows) to be\nreplaced with either a bee swarm trap or a single bottle-filling bee.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "0": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "beemizer_trap_chance": {
+        "comment": "Percentage chance for each replaced junk-fill item to be a bee swarm\ntrap; all other replaced items are single bottle-filling bees.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 100",
+        "60": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "timer": {
+        "comment": "None: No timer will be displayed. OHKO: Timer always at zero. Permanent OHKO.\nTimed: Starts with clock at zero. Green clocks subtract 4 minutes (total 20). Blue clocks subtract 2 minutes (total 10). Red clocks add two minutes (total 10). Winner is the player with the lowest time at the end.\nTimed OHKO: Starts the clock at ten minutes. Green clocks add five minutes (total 25). As long as the clock as at zero, Link will die in one hit.\nTimed Countdown: Starts the clock with forty minutes. Same clocks as timed mode, but if the clock hits zero you lose. You can still keep playing, though.\nDisplay: Displays a timer, but otherwise does not affect gameplay or the item pool.",
+        "none": 50,
+        "timed": 0,
+        "timed_ohko": 0,
+        "ohko": 0,
+        "timed_countdown": 0,
+        "display": 0
+      },
+      "countdown_start_time": {
+        "comment": "For Timed OHKO and Timed Countdown timer modes, the amount of time in minutes to start with.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 480",
+        "10": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "red_clock_time": {
+        "comment": "For all timer modes, the amount of time in minutes to gain or lose when picking up a red clock.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is -60\nMaximum value is 60",
+        "-2": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "blue_clock_time": {
+        "comment": "For all timer modes, the amount of time in minutes to gain or lose when picking up a blue clock.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is -60\nMaximum value is 60",
+        "2": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "green_clock_time": {
+        "comment": "For all timer modes, the amount of time in minutes to gain or lose when picking up a green clock.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is -60\nMaximum value is 60",
+        "4": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "death_link": {
+        "comment": "When you die, everyone who enabled death link dies. Of course, the reverse is true too.",
+        "false": 50,
+        "true": 0
+      },
+      "allow_collect": {
+        "comment": "Allows for !collect / co-op to auto-open chests containing items for other players.",
+        "false": 0,
+        "true": 50
+      },
+      "ow_palettes": {
+        "comment": "The type of palette shuffle to use for the overworld",
+        "default": 50,
+        "good": 0,
+        "blackout": 0,
+        "puke": 0,
+        "classic": 0,
+        "grayscale": 0,
+        "negative": 0,
+        "dizzy": 0,
+        "sick": 0
+      },
+      "uw_palettes": {
+        "comment": "The type of palette shuffle to use for the underworld (caves, dungeons, etc.)",
+        "default": 50,
+        "good": 0,
+        "blackout": 0,
+        "puke": 0,
+        "classic": 0,
+        "grayscale": 0,
+        "negative": 0,
+        "dizzy": 0,
+        "sick": 0
+      },
+      "hud_palettes": {
+        "comment": "The type of palette shuffle to use for the HUD",
+        "default": 50,
+        "good": 0,
+        "blackout": 0,
+        "puke": 0,
+        "classic": 0,
+        "grayscale": 0,
+        "negative": 0,
+        "dizzy": 0,
+        "sick": 0
+      },
+      "sword_palettes": {
+        "comment": "The type of palette shuffle to use for the sword",
+        "default": 50,
+        "good": 0,
+        "blackout": 0,
+        "puke": 0,
+        "classic": 0,
+        "grayscale": 0,
+        "negative": 0,
+        "dizzy": 0,
+        "sick": 0
+      },
+      "shield_palettes": {
+        "comment": "The type of palette shuffle to use for the shield",
+        "default": 50,
+        "good": 0,
+        "blackout": 0,
+        "puke": 0,
+        "classic": 0,
+        "grayscale": 0,
+        "negative": 0,
+        "dizzy": 0,
+        "sick": 0
+      },
+      "heartbeep": {
+        "comment": "How quickly the heart beep sound effect will play",
+        "normal": 50,
+        "double": 0,
+        "half": 0,
+        "quarter": 0,
+        "off": 0
+      },
+      "heartcolor": {
+        "comment": "The color of hearts in the HUD",
+        "red": 50,
+        "blue": 0,
+        "green": 0,
+        "yellow": 0
+      },
+      "quickswap": {
+        "comment": "Allows you to quickly swap items while playing with L/R",
+        "false": 0,
+        "true": 50
+      },
+      "menuspeed": {
+        "comment": "How quickly the menu appears/disappears",
+        "normal": 50,
+        "instant": 0,
+        "double": 0,
+        "triple": 0,
+        "quadruple": 0,
+        "half": 0
+      },
+      "music": {
+        "comment": "Whether background music will play in game",
+        "false": 0,
+        "true": 50
+      },
+      "reduceflashing": {
+        "comment": "Reduces flashing for certain scenes such as the Misery Mire and Ganon's Tower opening cutscenes",
+        "false": 0,
+        "true": 50
+      },
+      "triforcehud": {
+        "comment": "When and how the triforce hunt HUD should display",
+        "normal": 50,
+        "hide_goal": 0,
+        "hide_required": 0,
+        "hide_both": 0
+      },
+      "local_items": [],
+      "non_local_items": [],
+      "start_inventory": {},
+      "start_inventory_from_pool": {},
+      "start_hints": [],
+      "start_location_hints": [],
+      "exclude_locations": [],
+      "priority_locations": [],
+      "item_links": []
+    },
+    "Adventure": {
+      "progression_balancing": {
+        "comment": "A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.\n\nA lower setting means more getting stuck. A higher setting means less getting stuck.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 99",
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0,
+        "disabled": 0,
+        "normal": 50,
+        "extreme": 0
+      },
+      "accessibility": {
+        "comment": "Set rules for reachability of your items/locations.\n\n**Full:** ensure everything can be reached and acquired.\n\n**Minimal:** ensure what is needed to reach your goal can be acquired.",
+        "full": 50,
+        "minimal": 0
+      },
+      "plando_items": [],
+      "dragon_slay_check": {
+        "comment": "If true, slaying each dragon for the first time is a check",
+        "false": 0,
+        "true": 50
+      },
+      "death_link": {
+        "comment": "When you die, everyone who enabled death link dies. Of course, the reverse is true too.",
+        "false": 50,
+        "true": 0
+      },
+      "bat_logic": {
+        "comment": "How the bat is considered for logic\n\nWith cannot_break, the bat cannot pick up an item that starts out-of-logic until the player touches it\nWith can_break, the bat is free to pick up any items, even if they are out-of-logic\nWith use_logic, the bat can pick up anything just like can_break, and locations are no longer considered to require\nthe magnet or bridge to collect, since the bat can retrieve these.\nA future option may allow the bat itself to be placed as an item.\n\nSupported values: cannot_break, can_break, use_logic\nDefault value: can_break",
+        "cannot_break": 0,
+        "can_break": 50,
+        "use_logic": 0
+      },
+      "freeincarnate_max": {
+        "comment": "How many maximum freeincarnate items to allow\n\nWhen done generating items, any remaining item slots will be filled\nwith freeincarnates, up to this maximum amount.  Any remaining item\nslots after that will be 'nothing' items placed locally, so in multigame\nmultiworlds, keeping this value high will allow more items from other games\ninto Adventure.\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 0\nMaximum value is 17",
+        "17": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "dragon_rando_type": {
+        "comment": "How to randomize the dragon starting locations\n\nnormal: Grundle is in the overworld, Yorgle in the white castle, and Rhindle in the black castle\nshuffle: A random dragon is placed in the overworld, one in the white castle, and one in the black castle\noverworldplus: Dragons can be placed anywhere, but at least one will be in the overworld\nrandomized: Dragons can be anywhere except the credits room\n\n\nSupported values: normal, shuffle, overworldplus, randomized\nDefault value: shuffle",
+        "normal": 0,
+        "shuffle": 50,
+        "overworldplus": 0,
+        "randomized": 0
+      },
+      "connector_multi_slot": {
+        "comment": "If true, the client and lua connector will add lowest 8 bits of the player slot\nto the port number used to connect to each other, to simplify connecting multiple local\nclients to local EmuHawk instances.\nSet in the yaml, since the connector has to read this out of the rom file before connecting.",
+        "false": 50,
+        "true": 0
+      },
+      "yorgle_speed": {
+        "comment": "Sets Yorgle's initial speed.  Yorgle has a speed of 2 in the original game\nDefault value: 2\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 9",
+        "2": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "yorgle_min_speed": {
+        "comment": "Sets Yorgle's speed when all speed reducers are found.  Yorgle has a speed of 2 in the original game\nDefault value: 2\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 9",
+        "1": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "grundle_speed": {
+        "comment": "Sets Grundle's initial speed.  Grundle has a speed of 2 in the original game\nDefault value: 2\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 9",
+        "2": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "grundle_min_speed": {
+        "comment": "Sets Grundle's speed when all speed reducers are found.  Grundle has a speed of 2 in the original game\nDefault value: 2\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 9",
+        "1": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "rhindle_speed": {
+        "comment": "Sets Rhindle's initial speed.  Rhindle has a speed of 3 in the original game\nDefault value: 3\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 9",
+        "3": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "rhindle_min_speed": {
+        "comment": "Sets Rhindle's speed when all speed reducers are found.  Rhindle has a speed of 3 in the original game\nDefault value: 2\n\nYou can define additional values between the minimum and maximum values.\nMinimum value is 1\nMaximum value is 9",
+        "2": 50,
+        "random": 0,
+        "random-low": 0,
+        "random-high": 0
+      },
+      "difficulty_switch_a": {
+        "comment": "Set availability of left difficulty switch\nThis controls the speed of the dragons' bite animation",
+        "normal": 0,
+        "locked_hard": 0,
+        "hard_with_unlock_item": 50
+      },
+      "difficulty_switch_b": {
+        "comment": "Set availability of right difficulty switch\nOn hard, dragons will run away from the sword",
+        "normal": 0,
+        "locked_hard": 0,
+        "hard_with_unlock_item": 50
+      },
+      "start_castle": {
+        "comment": "Choose or randomize which castle to start in front of.\n\nThis affects both normal start and reincarnation.  Starting\nat the black castle may give easy dot runs, while starting\nat the white castle may make them more dangerous!  Also, not\nstarting at the yellow castle can make delivering the chalice\nwith a full inventory slightly less trivial.\n\nThis doesn't affect logic since all the castles are reachable\nfrom each other.",
+        "yellow": 50,
+        "black": 0,
+        "white": 0
+      },
+      "local_items": [],
+      "non_local_items": [],
+      "start_inventory": {},
+      "start_hints": [],
+      "start_location_hints": [],
+      "exclude_locations": [],
+      "priority_locations": [],
+      "item_links": []
+    }
+  }
+}

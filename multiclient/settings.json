@@ -2,8 +2,5 @@
     "paths": {
         "players": "C:/Program Files/MultiworldGG\\players",
         "output": "./output"
-    },
-    "templates": {
-        "A Hat in Time": "C:/Program Files/MultiworldGG\\players\\templates\\A Hat in Time.yaml"
     }
 }

@@ -14,7 +14,7 @@
 - [x] Support custom settings per game
 - [x] Combine games into valid multiworld YAML
 - [ ] Validate YAML using Archipelago schema
-- [ ] Allow saving/loading YAML templates
+- [in progress] Allow saving/loading YAML templates
 
 ---
 

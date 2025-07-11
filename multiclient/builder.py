@@ -150,6 +150,13 @@ class YAMLBuilder:
 
     def clear(self):
         self.slots.clear()
+    def get_settings_for_slot(self, slot_name):
+        # Return the dict of games/settings for the given slot
+        slot = next((s for s in self.slots if getattr(s, 'name', None) == slot_name), None)
+        if slot and hasattr(slot, 'games'):
+            # If slot.games is a dict of game_name: settings
+            return slot.games
+        return {}
 import os
 import importlib.util
 
